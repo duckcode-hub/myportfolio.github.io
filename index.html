@@ -1,0 +1,406 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>#php.achieng/lavincer.com/</title>
+    <!-- box icons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+
+
+<!-- my css -->
+    <link rel="stylesheet" href="style.css">
+    <style>@import url('https://fonts.googleapis.com/css?family=Poppins:wght@200;300;400;500;600;700&display=swap');
+        /* *{
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+            font-family: 'Poppins', sans-serif;
+        }
+        body{
+            min-height: 100vh;
+            width: 100%;
+            background: #c8e8e9;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            /* background: linear-gradient(90deg, #00dbde, #fc00ff); 
+        }  */
+        .container{
+            width: 80%;
+            background: #323946;
+            border-radius: 6px;
+            justify-content: center;
+            box-shadow: 0 5px 10px rgba(0, 0, 0, 0.2);
+            padding: 20px  60px 40px 40px;
+            /* margin: 0 15px; */
+        }
+        .container .content{
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+        }
+        .container .content .left-side{
+            width: 25%;
+            height: 100%;
+            position: relative;
+            margin-top: 15px;
+        }
+        .content .left-side::before{
+            content: '';
+            position: absolute;
+            height: 100%;
+            width: 2px;
+            right: -35px;
+            top: 50%;
+            transform: translateY(-50%);
+            background: #59595e;
+        }
+        .content .left-side .details{
+            margin: 14px;
+            text-align: center;
+        }
+        .content .left-side .details i{
+            font-size: 50px;
+            color: #3e2093;
+            margin-bottom: 10px;
+        }
+        .content .left-side .details .topic{
+            font-size: 18px;
+            font-weight: 500;
+        }
+        .content .left-side .details .text-one,
+        .content .left-side .details .text-two{
+            font-size: 14px;
+            color: #afafb6;
+        }
+            
+        .container .content .right-side{
+            width: 75%;
+            margin-left: 75px;
+        }
+        .content .right-side .topic-text{
+            font-size: 23px;
+            font-weight: 600;
+            color: #3e2093;
+        }
+        .right-side  .input-box{
+            height: 50px;
+            width: 100%;
+            margin: 12px 0;
+        }
+        .right-side .input-box input,
+        .right-side .input-box textarea{
+            height: 100%;
+            width: 100%;
+            border: none;
+            outline: none;
+            font-size: 16px;
+            background: #F0F1F8;
+            border-radius: 6px;
+            padding: 0 15px;
+            resize: none;
+        }
+        .right-side .message-box{
+            min-height: 110px;
+            margin-top: 6px;
+        }
+        .right-side .button input[type="button"]{
+            display: inline-block;
+            color: #fff;
+            font-size: 18px;
+            width: 19%;
+            outline: none;
+            border: none;
+            line-height: 40px;
+            border-radius: 4px;
+            background: #3e2093;
+            cursor: pointer;
+            margin-top: 12px;
+            transition: all 0.5s ease;
+        }
+        .button input[type="button"]:hover{
+            color: #3e2093;
+            background: #fff;
+            font-size: 18px;
+        }
+        </style>
+</head>
+<body>
+    <!-- header design -->
+     <header class="header">
+        <a href="#" class="logo">Wanjiru</a>
+
+
+        <!-- menu button with 3 lines -->
+        <i class='bx bx-menu' id="menu-icon"></i>
+
+        <nav class="navbar">  
+            <a href="#home" class="active">Home</a>
+            <a href="#about">About</a>
+            <a href="#services">Services</a>
+            <a href="#portfolio">Portfolio</a>
+            <a href="#contact">Contact</a>
+            </nav>
+     </header>
+    <!-- ================================================== 
+        ================================================== 
+                  HOME SECTION 
+     =================================================
+     ================================================= -->
+     <section class="home" id="home">
+
+        <div class="home-content">
+            <div class="text-section">
+                <h3>Hello, It's Me</h3>
+                <h1>Nelius Wanjiru</h1>
+                <h3>And I'm <span class="multiple-text"></span></h3>
+                <p><p>Welcome to my professional portfolio! I'm passionate about sustainable energy solutions and specialize in hybrid solar technology. Through my work, I strive to bring innovative and eco-friendly energy alternatives to homes and businesses. Explore my site to learn more about my projects, services, and how we can collaborate to create a brighter, greener future.</p>
+            </p>
+        
+                <!-- social media icons here -->
+                <div class="social-media">
+                    <a href="https://wwww.linkedin.com/in/yourprofile" target="_blank" rel="noopener noreferrer"><i class='bx bxl-linkedin'></i></a>
+                    <a href="https://wwwtwitter.com/yourusername" target="_blank" rel="noopener noreferrer"><i class='bx bxl-twitter' ></i></a>
+                    <a href="https://wwww.instagram.com/yourusername" target="_blank" rel="noopener noreferrer"><i class='bx bxl-instagram-alt'></i></a>
+                    <!-- <a href="#whatsapp"><i class='bx bxl-whatsapp' ></i></a> -->
+                </div>
+                <!-- ka-button ka ku-download CV -->
+                <a href="view.my.c.pdf" class="btn" title="not found! please reload again!">View my cv</a>
+            </div>
+        
+            <div class="home-img">
+                <img src="nlly.jpg" alt="pic here">
+            </div>
+        </div>
+        
+     </section>
+     <!-- end of home section -->
+
+     <!-- ==============================================================
+      ==================================================================
+      ================     ABOUT SECTION       =========================
+      ================================================================== -->
+     <section class="about" id="about">
+        <div class="about-img">
+            <img src="nlly.jpg" alt="">
+        </div>
+        <div class="about-content">
+            <h2 class="heading">
+                About <span>Me</span> </h2>
+                <h3>I'm a Hybrid Solar Technician</h3>
+                <p>As a Hybrid Solar Technician, I bring years of experience in designing, installing, and maintaining solar energy systems. My mission is to provide reliable and sustainable energy solutions that reduce carbon footprints and promote energy independence. With a focus on innovation and quality, I am committed to helping clients achieve their energy goals with customized solar solutions.
+                </p>
+           
+            <a href="#" class="btn">Read more</a>
+        </div>
+     </section>
+     <!-- ================================================================== SERVICE SECTION                            ======================================================================= -->
+      <section class="service" id="services">
+        <h2 class="heading">My <span>Services</span></h2>
+
+        <div class="service-container">
+            <div class="service-box">
+                <i class='bx bx-code-alt'></i>
+                <h3>Solar installation</h3>
+                <p>Regular inspections are crucial for maintaining the performance and safety of solar installations. My thorough inspection services identify potential issues early, ensuring your system operates at peak efficiency and longevity. Trust me to safeguard your investment with professional care.
+                </p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+            <div class="service-box">
+                <i class='bx bxs-brush'></i>
+                <h3>Solar inspection</h3>
+                <p>Regular inspections are crucial for maintaining the performance and safety of solar installations. My thorough inspection services identify potential issues early, ensuring your system operates at peak efficiency and longevity. Trust me to safeguard your investment with professional care.</p>
+
+                <a href="#" class="btn">Read more</a>
+            </div>
+            <div class="service-box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3>Consoltant Agent</h3>
+                <p>As a consultant, I offer expert advice on solar energy projects, from feasibility studies to system design and regulatory compliance. I help clients navigate the complexities of renewable energy, ensuring projects are both economically viable and environmentally responsible.</p>
+
+                <a href="#" class="btn">Read more</a>
+            </div>
+            <div class="service-box">
+                <i class='bx bx-bar-chart-alt'></i>
+                <h3>Solar Maintainance</h3>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Cupiditate dicta quaerat magni nemo est molestiae nesciunt, totam quisquam dolor asperiores modi laborum commodi. Excepturi quaerat animi eaque aliquam dolorem reprehenderit provident ducimus odio facere eligendi ratione commodi qui error, ab beatae nisi voluptatum magni sunt eum!
+
+                </p>
+                <a href="#" class="btn">Read more</a>
+            </div>
+        </div> 
+      </section>
+
+      <!-- ============================================================== PORTFOLIO SECTION ======================================================================= -->
+
+      <section class="portfolio" id="portfolio">
+        <h2 class="heading">Latest <span>Project</span></h2>
+
+        <div class="portfolio-container">
+            <div class="portfolio-box">
+                <img src="wanjirupic3.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Project 1</h4>
+                    <p>Completed a comprehensive solar panel installation for a residential client, enhancing their energy independence and reducing their utility costs by 30%. This project involved customizing the setup to fit unique roof angles and maximizing sun exposure.</p>
+
+                    <a href=""><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="wanjirupic1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Project 2</h4>
+                    <p>Conducted a solar energy audit for a large commercial facility, identifying inefficiencies and recommending upgrades that could save the client over $15,000 annually in energy costs.</p>
+
+                    <a href=""><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="wanjirupic4.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Project 3</h4>
+                    <p>Designed and installed a hybrid solar system for an off-grid cabin, combining solar panels with a backup generator to ensure reliable power in remote locations. This setup has proven to be a robust solution for the client's energy needs.</p>
+
+                    <a href=""><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <!-- <div class="portfolio-box">
+                <img src="owokopj1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Project 4</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates nostrum similique laudantium porro minus, aspernatur ex, quos dolores delectus necessitatibus mollitia animi .</p>
+                    <a href=""><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="owokopj1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Project 5</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates nostrum similique laudantium porro minus, aspernatur ex, quos dolores </p>
+                    <a href=""><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="owokopj1.jpg" alt="">
+                <div class="portfolio-layer">
+                    <h4>Project 6</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates nostrum similique laudantium porro </p>
+                    <a href=""><i class='bx bx-link-external'></i></a>
+                </div>
+            </div> -->
+           <!-- <div class="portfolio-box">
+                <img src="vatar2.avif" alt="">
+                <div class="portfolio-layer">
+                    <h4>Project 7</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates nostrum similique laudantium porro </p>
+                    <a href=""><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="vatar2.avif" alt="">
+                <div class="portfolio-layer">
+                    <h4>Project 8</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates nostrum similique laudantium porro </p>
+                    <a href=""><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>
+            <div class="portfolio-box">
+                <img src="vatar2.avif" alt="">
+                 <div class="portfolio-layer"> 
+                    <h4>Project 9</h4>
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Voluptates nostrum similique laudantium porro minus, aspernatur ex, quos dolores </p>
+                    <a href=""><i class='bx bx-link-external'></i></a>
+                </div>
+            </div>-->
+        </div>
+      </section>
+      <!-- end of portfolio section -->
+
+
+      <!-- ========================================================================= CONTACT SECTION ============================================================================ -->
+        
+          <!-- <div class="container"> -->
+            <h2 class="heading">Contact <span>Me!</span></h2>
+              <div class="content">
+                  <div class="left-side">
+                      <div class="address details">
+                          <i class="fas fa-map-marker-alt"></i>
+                          <div class="topic">Address</div>
+                          <div class="text-one">Kibiko</div>
+                          <div class="text-two">Ngong'  ,Kajiado</div>
+                          
+                      </div>
+                      <div class="phone details">
+                          <i class="fas fa-phone-alt"></i>
+                          <div class="topic">Phone contact</div>
+                          <div class="text-one">+254 700 383241</div>
+                          <div class="text-two"></div>
+      
+                      </div>
+                      <div class="email details">
+                          <i class="fas fa-envelope"></i>
+                          <div class="topic">Email</div>
+                          <div class="text-one"></div>
+                          <div class="text-two">wanjirunelius244@gmail.com</div>
+      
+                      </div>
+      
+                  </div>
+              
+              <!-- <div class="right-side">
+                  <div class="topic-text">Send us a message</div>
+                  <p>If you have any work for me or any types of quries related to my docket,<br> you can send me message from here. It will be helpfull to me.</p>
+      
+              
+              <form action="#">
+      
+                  <div class="input-box">
+                      <input type="text" placeholder="Enter your name">
+                  </div>
+      
+                  <div class="input-box">
+                      <input type="email" placeholder="Enter your email">
+      
+                  </div>
+      
+                  <div class="input-box message-box">
+                      <textarea placeholder="Enter your message"></textarea>
+      
+                  </div>
+      
+                  <div class="button">
+                      <input type="button" value="Send Now">
+                  </div>
+              </form> -->
+          </div>
+          </div>
+       </div>
+       <!-- ============================================================ FOOTER SECTION =========================================== -->
+        <footer class="footer">
+
+            <div class="footer-text">
+                <p>Copyright &copy; 2024 by Nelius Wanjiru | All rights reserved <br>| developed by duckcodes Developers Ke.|<br> duckcodes671@gmail.com</p>
+            </div>
+                <div class="footer-iconTop">
+                    <a href="#home"><i class='bx bx-up-arrow-alt'></i></a>
+
+                </div>
+            
+        </footer>
+                    <!-- end of footer -->
+                     <!-- scroll reveal script link -->
+                     <script src="https://unpkg.com/scrollreveal"></script>
+                     <!-- typed js -->
+
+<script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+                    <!-- js script here -->
+                     <script src="nelly.js"></script>
+
+                     <a href="https://wa.me/254700383241" class="whatsapp-float" target="_blank">
+                        <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" style="width:50px;height:50px;">
+                    </a>
+                    
+</body>
+</html>
